@@ -1,0 +1,11 @@
+{
+    "name": "Ubuntu 20.04 (Focal)",
+    "image": "mcr.microsoft.com/vscode/devcontainers/universal:focal",
+    "features": {
+        // Bạn có thể thêm các tính năng (features) khác nếu cần, ví dụ:
+        // "ghcr.io/devcontainers/features/node:1": {},
+        // "ghcr.io/devcontainers/features/python:1": {}
+    },
+    // Thêm dòng này để chạy script setup.sh tự động khi codespace khởi động:
+    "postCreateCommand": "./scripts/setup.sh"
+}
